@@ -6,7 +6,7 @@ description: Salt formula for installing components of Cassandra 1.2.x. Please n
 root_path: cassandra
 components:
   - title: Seed Node
-    description: A seed node in the Cassandra cluster
+    description: A seed node in the Cassandra cluster HELLO TEST
     sls_path: cassandra.seed
   - title: Regular Node
     description: A regular node in the Cassandra cluster
