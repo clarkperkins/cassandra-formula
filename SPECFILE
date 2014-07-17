@@ -14,9 +14,6 @@ components:
   - title: OpsCenter
     description: The OpsCenter component of the cassandra formula
     sls_path: cassandra.opscenter
-  - title: My New Component
-    description: my new description
-    sls_path: cassandra.new
 pillar_defaults:
   cassandra:
     version: 1.2.11-1
