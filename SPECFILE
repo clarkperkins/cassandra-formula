@@ -8,9 +8,6 @@ components:
   - title: Seed Node
     description: A seed node in the Cassandra cluster
     sls_path: cassandra.seed
-  - title: Regular Node
-    description: A regular node in the Cassandra cluster
-    sls_path: cassandra.node
 pillar_defaults:
   cassandra:
     version: 1.2.11-1
