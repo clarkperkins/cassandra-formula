@@ -1,4 +1,4 @@
-title: Cassandra 1.2.x Salt Formula
+title: hola Cassandra 1.2.x Salt Formula
 description: Salt formula for installing components of Cassandra 1.2.x. Please note
              that seed and regular nodes are the same exact thing, however, to make
              it easy for users to pick which hosts will be seeds we have separated
