@@ -1,11 +1,11 @@
-title: hola Cassandra 1.2.x Salt Formula
+title: Cassandra 1.2.x Salt Formula
 description: Salt formula for installing components of Cassandra 1.2.x. Please note
              that seed and regular nodes are the same exact thing, however, to make
              it easy for users to pick which hosts will be seeds we have separated
              them to easily find using the grain system in salt.
 root_path: cassandra
 components:
-  - title: dfdf Seed Node
+  - title: Seed Node
     description: A seed node in the Cassandra cluster
     sls_path: cassandra.seed
   - title: Regular Node
@@ -14,6 +14,9 @@ components:
   - title: OpsCenter
     description: The OpsCenter component of the cassandra formula
     sls_path: cassandra.opscenter
+  - title: My New Component
+    description: my new description
+    sls_path: cassandra.new
 pillar_defaults:
   cassandra:
     version: 1.2.11-1
